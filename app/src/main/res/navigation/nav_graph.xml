@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
 
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="edu.quinnipiac.ser210.fourinarowapp.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="edu.quinnipiac.ser210.fourinarowapp.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
 </navigation>
