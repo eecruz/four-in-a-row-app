@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -14,8 +16,9 @@
         android:columnCount="6"
         android:rowCount="6">
 
-        <Button
+        <ImageButton
             android:id="@+id/button_0"
+            android:tag="0"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -23,8 +26,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_1"
+            android:tag="1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -32,8 +36,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_2"
+            android:tag="2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -41,8 +46,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_3"
+            android:tag="3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -50,8 +56,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_4"
+            android:tag="4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -59,8 +66,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_5"
+            android:tag="5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -68,8 +76,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_6"
+            android:tag="6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -77,8 +86,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_7"
+            android:tag="7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -86,8 +96,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_8"
+            android:tag="8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -95,8 +106,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_9"
+            android:tag="9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -104,8 +116,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_10"
+            android:tag="10"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -113,8 +126,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_11"
+            android:tag="11"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -122,8 +136,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_12"
+            android:tag="12"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -131,8 +146,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_13"
+            android:tag="13"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -140,8 +156,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_14"
+            android:tag="14"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -149,8 +166,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_15"
+            android:tag="15"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -158,8 +176,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_16"
+            android:tag="16"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -167,8 +186,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_17"
+            android:tag="17"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -176,8 +196,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_18"
+            android:tag="18"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -185,8 +206,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_19"
+            android:tag="19"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -194,17 +216,20 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_20"
+            android:tag="20"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_21"
+            android:tag="21"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -212,8 +237,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_22"
+            android:tag="22"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -221,8 +247,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_23"
+            android:tag="23"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -230,8 +257,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_24"
+            android:tag="24"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -239,8 +267,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_25"
+            android:tag="25"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -248,8 +277,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_26"
+            android:tag="26"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -257,8 +287,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_27"
+            android:tag="27"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -266,8 +297,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_28"
+            android:tag="28"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -275,8 +307,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_29"
+            android:tag="29"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -284,8 +317,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_30"
+            android:tag="30"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -293,8 +327,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_31"
+            android:tag="31"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -302,8 +337,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_32"
+            android:tag="32"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -311,8 +347,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_33"
+            android:tag="33"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -320,8 +357,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_34"
+            android:tag="34"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -329,8 +367,9 @@
             android:layout_gravity="fill"
             android:layout_margin="5dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button_35"
+            android:tag="35"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -340,11 +379,34 @@
 
     </GridLayout>
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.3"
-        android:gravity="center"
-        android:text="HELLO"
-        android:textSize="100sp" />
+        android:layout_weight="0.3" >
+
+        <TextView
+            android:id="@+id/playerTurnText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="90"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19999999" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Reset"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playerTurnText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </LinearLayout>
