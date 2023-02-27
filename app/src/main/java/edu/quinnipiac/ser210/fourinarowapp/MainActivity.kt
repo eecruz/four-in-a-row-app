@@ -1,3 +1,8 @@
+/**
+ * Assignment 2 - ConnectFourApp
+ * @Author: Emilio Cruz
+ * @Date: 2/26/23
+ */
 package edu.quinnipiac.ser210.fourinarowapp
 
 import androidx.appcompat.app.AppCompatActivity

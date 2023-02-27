@@ -3,6 +3,7 @@
  * @author relkharboutly
  * @date 1/12/2022
  * Name: Emilio Cruz
+ * Assignment 2
  */
 package edu.quinnipiac.ser210.fourinarowapp
 

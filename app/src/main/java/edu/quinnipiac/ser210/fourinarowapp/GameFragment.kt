@@ -1,3 +1,8 @@
+/**
+ * Assignment 2 - ConnectFourApp
+ * @Author: Emilio Cruz
+ * @Date: 2/26/23
+ */
 package edu.quinnipiac.ser210.fourinarowapp
 
 import android.os.Bundle
@@ -66,6 +71,7 @@ class GameFragment : Fragment(), View.OnClickListener
 
     override fun onSaveInstanceState(outState: Bundle)
     {
+        // saves important variables on screen rotation
         super.onSaveInstanceState(outState)
         outState.putSerializable("board", FIR_board.board)
         outState.putBooleanArray("buttonStates", buttonStates)
@@ -123,9 +129,6 @@ class GameFragment : Fragment(), View.OnClickListener
             return
         }
 
-        // start AI's turn
-        playerTurnText.text = "AI's Turn..."
-
         // make AI move
         val aiMove = FIR_board.computerMove
         FIR_board.setMove(GameConstants.RED, aiMove)
@@ -142,6 +145,7 @@ class GameFragment : Fragment(), View.OnClickListener
 
     private fun updateTurnText()
     {
+        // updates playerTurnText based on situation
         when (FIR_board.checkForWinner())
         {
             GameConstants.BLUE_WON ->
@@ -158,7 +162,7 @@ class GameFragment : Fragment(), View.OnClickListener
 
             GameConstants.TIE ->
             {
-                playerTurnText.text = "It's a tie! Lame..."
+                playerTurnText.text = getString(R.string.gameTie)
                 onGameFinish()
             }
 
@@ -171,6 +175,7 @@ class GameFragment : Fragment(), View.OnClickListener
 
     private fun onGameFinish()
     {
+        // disables board buttons and enables reset button
         buttonReset.isEnabled = true
 
         for (i in boardButtons.indices)

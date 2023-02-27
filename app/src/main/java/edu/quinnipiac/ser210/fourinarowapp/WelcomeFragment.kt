@@ -43,9 +43,11 @@ class WelcomeFragment : Fragment()
         playerName = view.findViewById<EditText>(R.id.personName)
         start = view.findViewById<Button>(R.id.start)
 
+        // button is disabled until user enters name
         start.isEnabled = false
         playerName.addTextChangedListener(textWatcher)
 
+        // set click listener for start button
         start.setOnClickListener()
         {
             val name = playerName.text.toString().trim()

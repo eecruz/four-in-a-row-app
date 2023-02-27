@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--    Assignment 2 - ConnectFourApp-->
+<!--    @Author: Emilio Cruz-->
+<!--    @Date: 2/26/23-->
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:gravity="center"
-            android:text="Welcome to Four in a Row!"
+            android:text="@string/welcome_text"
             android:textSize="50sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="172dp"
             android:layout_marginTop="12dp"
-            android:text="Start"
+            android:text="@string/start_text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/personName" />
 
@@ -54,7 +59,7 @@
             android:layout_marginStart="26dp"
             android:layout_marginTop="20dp"
             android:gravity="left"
-            android:text="- Users will take turns with an AI placing color squares on a 6x6 grid"
+            android:text="@string/rule1_text"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/welcomeText"
@@ -67,7 +72,7 @@
             android:layout_marginStart="26dp"
             android:layout_marginTop="12dp"
             android:gravity="left"
-            android:text="- The AI will try to block player wins going either horizontally or vertically"
+            android:text="@string/rule2_text"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/welcomeText"
@@ -80,7 +85,7 @@
             android:layout_marginStart="26dp"
             android:layout_marginTop="12dp"
             android:gravity="left"
-            android:text="- In order to win, either player must attain 4 of their color squares in a row/column/diagonal"
+            android:text="@string/rule3_text"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/welcomeText"
@@ -93,7 +98,7 @@
             android:layout_marginStart="62dp"
             android:layout_marginEnd="52dp"
             android:gravity="center"
-            android:text="Rules and Gameplay"
+            android:text="@string/rules_text"
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

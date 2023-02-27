@@ -1,14 +1,9 @@
 /**
- * Assignment 1 - ConnectFour
+ * Assignment 2 - ConnectFourApp
  * @Author: Emilio Cruz
- * @Date: 1/28/23
+ * @Date: 2/26/23
  */
 package edu.quinnipiac.ser210.fourinarowapp
-
-import android.R.color
-import android.os.Parcel
-import android.os.Parcelable
-
 
 class FourInARow() : IGame {
     // game board in 2D array initialized to zeros
@@ -173,12 +168,9 @@ class FourInARow() : IGame {
                 else
                     countV = 1
 
-                println("Count: " + countV)
-
                 if(countV == 4)
                 {
                     val x = j+6
-                    println("last cell: " + x)
                     println("Column Win")
                     if(getCell(j) == GameConstants.BLUE)
                         return GameConstants.BLUE_WON
